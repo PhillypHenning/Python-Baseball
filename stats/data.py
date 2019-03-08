@@ -74,3 +74,5 @@ games = games.fillna(' ')
 pd.Categorical(games['type'].iloc[:])
 
 print('\nAnd finally we have a working Dataframe that contains meaningful and insightful data!\n{}'.format(games[:25]))
+# End on the discussion talking about how this is just demo code that we Developers use to understand a system. 
+# After that we can take this and build so muuch more! For example building a discord bot to tell you and your friends your stats
