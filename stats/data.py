@@ -68,7 +68,7 @@ print('\nLook at the column names before we change them: \n{}'.format(identifier
 identifiers.columns = ['game_id', 'year']
 print('\nNow look at the column names after: \n{}'.format(identifiers[:5]))
 
-# This is some final clean up for my computer. It will free up a bit of space on our computers.
+# This is some final clean it will free up a bit of space on our computers.
 games = pd.concat([games, identifiers], axis=1, sort=False)
 games = games.fillna(' ')
 pd.Categorical(games['type'].iloc[:])
