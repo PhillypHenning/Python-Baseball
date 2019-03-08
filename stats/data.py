@@ -70,8 +70,7 @@ print('\nNow look at the column names after: \n{}'.format(identifiers[:5]))
 
 # This is some final clean up for my computer. It will free up a bit of space on our computers.
 games = pd.concat([games, identifiers], axis=1, sort=False)
-games = games.fillna(' ')453;[5
+games = games.fillna(' ')
 pd.Categorical(games['type'].iloc[:])
 
-# End on the discussion talking about how this is just demo code that we Developers use to understand a system. 
-# After that we can take this and build so muuch more! For example building a discord bot to tell you and your friends your stats or play music for you. 
+print('\nAnd finally we have a working Dataframe that contains meaningful and insightful data!\n{}'.format(games[:25]))
