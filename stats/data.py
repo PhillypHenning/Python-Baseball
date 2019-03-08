@@ -64,10 +64,14 @@ identifiers = games['multi2'].str.extract(r'(.LS(\d{4})\d{5})')
 identifiers = identifiers.fillna(method='ffill')
 print('\nLook at the column names before we change them: \n{}'.format(identifiers[:5]))
 
+# And rename the columns here
 identifiers.columns = ['game_id', 'year']
 print('\nNow look at the column names after: \n{}'.format(identifiers[:5]))
 
+# This is some final clean up for my computer. It will free up a bit of space on our computers.
 games = pd.concat([games, identifiers], axis=1, sort=False)
-games = games.fillna(' ')
+games = games.fillna(' ')453;[5
+pd.Categorical(games['type'].iloc[:])
 
-print(games[:5])
+# End on the discussion talking about how this is just demo code that we Developers use to understand a system. 
+# After that we can take this and build so muuch more! For example building a discord bot to tell you and your friends your stats or play music for you. 
