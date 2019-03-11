@@ -1,7 +1,13 @@
-# Building Baseball Data Visualizations with Python - Draft Project
-Not ready for use.
+# Workshop-deepLearning-intro
 
+Required Packages:
+
+Tensorflow:
 ```
-Retrosheet Notice:
-The information used here was obtained free of charge from and is copyrighted by Retrosheet.  Interested parties may contact Retrosheet at "www.retrosheet.org".
+conda install -c conda-forge tensorflow 
+```
+
+Matplotlib
+```
+conda install -c conda-forge matplotlib
 ```
